@@ -1,19 +1,14 @@
 <template>
-  <div class="hm-logo">
-    <span class="iconfont iconnew"></span>
-  </div>
+  <div class="HmLogo iconfont iconnew"></div>
 </template>
 
 <script>
 export default {}
 </script>
-
 <style lang="less" scoped>
-.hm-logo {
+.HmLogo {
   text-align: center;
-  span {
-    font-size: 126px;
-    color: rgb(216, 30, 6);
-  }
+  font-size: 126px;
+  color: #d81e06;
 }
 </style>
