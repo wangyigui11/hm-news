@@ -18,6 +18,12 @@ Vue.component('hm-logo', HmLogo)
 Vue.component('hm-button', HmButton)
 Vue.component('hm-input', HmInput)
 
+/*  --------------  vant-ui的处理  -------- */
+import { Toast } from 'vant'
+Vue.use(Toast)
+
+/*  --------------  vant-ui的处理  -------- */
+
 Vue.prototype.$axios = axios
 axios.defaults.baseURL = 'http://localhost:3000'
 
